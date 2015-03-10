@@ -1,93 +1,33 @@
-<!-- About Section -->
-    <section id="about">
+<!-- Team Section -->
+    <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">A bit about my professional background.</h3>
+                    <h2 class="section-heading">Meet Joseph!</h2>
+                    <h3 class="section-subheading text-muted">"Joseph, I have never met anyone more focused than you"<br>
+                    - Gregory Norris, Financial Advisor and former colleague at GMU</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/gmu_logo_small.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009</h4>
-                                    <h4 class="subheading">A Humble New Graduate</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Joseph went to GMU first as an art student before exploring to find the world of Finance.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/eag_small.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>August 2009</h4>
-                                    <h4 class="subheading">Learning Analysis</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Spent the next two years learning how to do classic spreadsheet analysis. spreadsheets and vlookups were definitely a thing over at Economic Analysis Group.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/team_velocity_logo_small.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>November 2012</h4>
-                                    <h4 class="subheading">A Marketing Perspective</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Joined up with the Team and brought some of my Excel skills, initiative, and personality.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/qb.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>October 2013</h4>
-                                    <h4 class="subheading">Team Velocity Marketing, Part Two</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">They decided to put my skills to the test here, and it was a rewarding challenge. Learned much more about programming, relational databases, and user experience.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/dbc.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2014</h4>
-                                    <h4 class="subheading">Booting Up</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Enrolled in 9 weeks remote + 9 on site to learn full stack web development with Ruby on Rails. Consumed new technologies at a rapid rate while coding 80+ hours a week. Further developed people and empathy skills.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>of My
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
+                {% for member in site.people %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                 </div>
             </div>
         </div>
