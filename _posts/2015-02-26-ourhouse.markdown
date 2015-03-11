@@ -1,0 +1,14 @@
+---
+title: ourHouse
+subtitle: Our mobile solution for housemates
+layout: default
+modal-id: 2
+date: 2015-02-26
+img: ourHouse.png
+thumbnail: ourHouse-thumb.jpg
+alt: image-alt
+project-date: February 2015
+client: 
+category: Web Development
+description: An Android and iOS mobile app to help coordinate social events, household chores, and payments among your fellow housemates. Our team of 5 learned all the new technologies necessary, designed, and developed this app as our final project within 5 days. Built with a decoupled architecture using Angular and Ionic on the front end, Rails API on the back end. Leveraged Auth0 with Google+ (decoupled OAuth was a big challenge), and Venmo API for payment feature. 
+---

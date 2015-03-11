@@ -1,0 +1,14 @@
+---
+title: muniPlus
+subtitle: Don't miss the bus again
+layout: default
+modal-id: 1
+date: 2015-01-30
+img: muniplus.png
+thumbnail: muni-thumb.jpg
+alt: image-alt
+project-date: January 2015
+client: 
+category: Web Development
+description: A web app for Dev Bootcamp to demonstrate our ability to consume an API within our app. Built on Sinatra with Ruby, Javascript, Google maps API, nextmuni API, and Firebase transit API. This started out as a simple app to query nextmuni's API and get transit information for a given route number. After discovering Firebase and its ability to send real time bus tracking information, I decided to use their live GPS data to animate bus markers on Google maps. The kicker here? With the amount of time alotted for this project, I was told this would be impossible. Challenge accepted! 
+---
