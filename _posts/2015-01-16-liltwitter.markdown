@@ -2,7 +2,7 @@
 title: Lil Twitter
 subtitle: If a tweet gets smaller, is it a twit?
 layout: default
-modal-id: 1
+modal-id: 3
 date: 2015-01-16
 img: liltwitter.jpg
 thumbnail: liltwitter-thumb.png
