@@ -176,8 +176,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Oxygen","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
+    font-size: 2em; 
 }
 
 .navbar-default .navbar-brand:hover,
