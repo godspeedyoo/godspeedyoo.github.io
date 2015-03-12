@@ -24,17 +24,17 @@ people:
       url: http://linkedin.com/in/josephwon7
     - title: github
       url: http://github.com/godspeedyoo
+    - title: facebook
+      url: http://facebook.com/josephwon
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/godspeedyoo
-  - title: google-plus
-    url: 
   - title: linkedin
     url: http://linkedin.com/in/josephwon7
-  - title: 
-    url: 
+  - title: facebook 
+    url: http://facebook.com/josephwon
   - title: github
     url: http://github.com/godspeedyoo
 
