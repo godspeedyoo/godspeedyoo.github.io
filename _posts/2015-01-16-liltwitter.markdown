@@ -8,7 +8,7 @@ img: liltwitter.jpg
 thumbnail: liltwitter-thumb.png
 alt: image-alt
 project-date: January 2015
-source_1: 
+source_1:
 source_1_name:
 source_2:
 source_2_name:
