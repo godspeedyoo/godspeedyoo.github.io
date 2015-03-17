@@ -23,12 +23,26 @@
                             {% endif %}
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
+                                <li>Source Code:
+                                    <strong><a href="{{ post.source_1 }}">{{ post.source_1_name }}</a>
+                                    </strong>
+
+                                </li>
+
+                                {{ if post.source_2 }}
+                                <li>Source Code 2:
+                                    <strong><a href="{{ post.source_2 }}">{{ post.source_2_name }}</a>
+                                    </strong>
+                                </li>
+                                {{ endif }}
+
+
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <strong>{{ post.project-date }}</a>
                                     </strong>
                                 </li>
                                 <li>Category:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                    <strong>{{ post.category }}</a>
                                     </strong>
                                 </li>
                             </ul>
