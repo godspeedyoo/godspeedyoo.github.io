@@ -7,6 +7,7 @@ date: 2015-02-26
 img: ourHouse.png
 thumbnail: ourHouse-thumb.jpg
 alt: image-alt
+video: OurHouse.mp4
 project-date: February 2015
 client: 
 category: Web Development
