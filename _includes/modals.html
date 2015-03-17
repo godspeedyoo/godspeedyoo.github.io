@@ -23,11 +23,12 @@
                             {% endif %}
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
+                                {% if post.source_1 %}
                                 <li>Source Code:
                                     <strong><a href="{{ post.source_1 }}">{{ post.source_1_name }}</a>
                                     </strong>
-
                                 </li>
+                                {% endif %}
 
                                 {% if post.source_2 %}
                                 <li>Source Code 2:
@@ -35,7 +36,6 @@
                                     </strong>
                                 </li>
                                 {% endif %}
-
 
                                 <li>Date:
                                     <strong>{{ post.project-date }}</a>

@@ -15,5 +15,4 @@ source_2: https://github.com/godspeedyoo/OurHouse-Client
 source_2_name: Client
 category: Web Development
 description: An Android and iOS mobile app to help coordinate social events, household chores, and payments among your fellow housemates. Our team learned all the new technologies necessary, designed, and developed this app as our final project within 5 days. Built with a decoupled architecture using Angular and Ionic on the front end, Rails API on the back end. Leveraged Auth0 with Google+ (decoupled OAuth was a big challenge), and Venmo API for payment feature. Team Members: Brian Vogelgesang, Ali Esmali, Charles Kim, Anthony Ng, Joseph Won.
-
 ---
